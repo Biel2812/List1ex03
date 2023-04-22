@@ -1,0 +1,8 @@
+double d;
+     double area;
+
+    Console.WriteLine("Digite sua diagonal");
+    d = double.Parse(Console.ReadLine());
+    area = (d*d)/2; 
+    Console.WriteLine("Resultado da area");
+    Console.WriteLine(area);
